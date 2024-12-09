@@ -1,0 +1,23 @@
+.carousel-item img {
+    object-fit: cover; /* Asegura que las imágenes llenen el contenedor sin distorsión */
+    height: 300px; /* Ajusta la altura de las imágenes */
+}
+
+
+.table-bordered th, .table-bordered td {
+    border: 2px solid #000; /* Bordes más gruesos */
+}
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f8f9fa; /* Blanco claro para las filas impares */
+}
+.table-striped tbody tr:nth-child(even) {
+    background-color: #d6d8db; /* Gris claro para las filas pares */
+}
+.table th {
+    background-color: #30669c; /* Fondo oscuro para el encabezado */
+    color: white; /* Texto blanco en el encabezado */
+}
+
+body {
+    background-color: #e7e5e58a; /* Gris claro */
+}
